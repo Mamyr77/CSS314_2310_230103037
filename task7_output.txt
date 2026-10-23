@@ -1,0 +1,28 @@
+C:\Users\Admin\PycharmProjects\PythonProject1\.venv\Scripts\python.exe C:\Users\Admin\AppData\Roaming\JetBrains\PyCharm2025.3\scratches\task7.py 
+Array size: 30,000,000 elements (float64)
+Detected logical cores: 12
+
+======================================================================
+KERNEL A: Vector Copy B[i] = A[i] (Memory-Bound)
+----------------------------------------------------------------------
+   Cores |  Wall Time (ms) |    Speedup |   Scaling Efficiency
+----------------------------------------------------------------------
+       1 |         1038.20 |       1.00x |             100.00%
+       2 |          591.05 |       1.76x |              87.83%
+      12 |          444.85 |       2.33x |              19.45%
+
+======================================================================
+KERNEL B: Trig Functions B[i] = sin(A[i])*cos(A[i])+tan(A[i]) (Compute-Bound)
+----------------------------------------------------------------------
+   Cores |  Wall Time (ms) |    Speedup |   Scaling Efficiency
+----------------------------------------------------------------------
+       1 |         2053.84 |       1.00x |             100.00%
+       2 |          966.62 |       2.12x |             106.24%
+      12 |          720.53 |       2.85x |              23.75%
+======================================================================
+
+CONCLUSION:
+Kernel A (Memory-Bound) stalled in scaling (Efficiency: 19.4%) due to RAM memory channel bandwidth saturation.
+Kernel B (Compute-Bound) maintained higher scaling efficiency (23.8%) because its bottleneck is CPU ALU computation, not memory bus speed.
+
+Process finished with exit code 0
