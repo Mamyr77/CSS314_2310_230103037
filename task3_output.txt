@@ -1,0 +1,11 @@
+C:\Users\Admin\PycharmProjects\PythonProject1\.venv\Scripts\python.exe C:\Users\Admin\Desktop\task3.py 
+Physical/Logical cores detected: 12
+Iterations per thread: 50,000,000
+
+==================================================
+Unpadded Shared Time : 27424.082 ms
+Padded/Local Time   : 3054.497 ms
+Execution Ratio      : 8.978x faster (Local vs Unpadded)
+==================================================
+
+Process finished with exit code 0
