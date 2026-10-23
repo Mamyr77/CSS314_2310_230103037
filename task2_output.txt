@@ -1,0 +1,22 @@
+C:\Users\Admin\PycharmProjects\PythonProject1\.venv\Scripts\python.exe C:\Users\Admin\AppData\Roaming\JetBrains\PyCharm2025.3\scratches\scratch.py 
+Student ID: 230103037
+Operating System: Windows-11-10.0.26200-SP0
+CPU: Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+Logical cores detected: 12
+
+Array size: 20,000,000
+Data type: float64
+Seed: 230103037
+Sum: 10000881.550897493958
+
+=================================================================
+   Cores |  Wall Time (ms) |    Speedup |  Amdahl Upper Bound
+-----------------------------------------------------------------
+       1 |          19.182 |      1.000 |               1.000
+       2 |          10.459 |      1.834 |               1.905
+       4 |           8.741 |      2.195 |               3.478
+      12 |           6.564 |      2.922 |               7.742
+      24 |           7.111 |      2.697 |              11.163
+=================================================================
+
+Process finished with exit code 0
