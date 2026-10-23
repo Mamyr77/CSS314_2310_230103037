@@ -1,0 +1,19 @@
+C:\Users\Admin\PycharmProjects\PythonProject1\.venv\Scripts\python.exe C:\Users\Admin\Desktop\task6.py 
+Threads: 4
+Increments per thread: 2,000,000
+Expected final value: 8,000,000
+
+============================================================
+Metric                              |                Value
+------------------------------------------------------------
+Unsynchronized Final Value          |            8,000,000
+Lost Updates                        |                    0
+Data Loss Percentage                |                0.00%
+------------------------------------------------------------
+Synchronized Final Value            |            8,000,000
+Unsynchronized Time (ms)            |               313.03
+Synchronized Time (ms)              |              1395.80
+Synchronization Lock Penalty        |                4.46x
+============================================================
+
+Process finished with exit code 0
