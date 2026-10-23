@@ -1,0 +1,6 @@
+C:\Users\Admin\PycharmProjects\parallelcomputingtasks\.venv\Scripts\python.exe C:\Users\Admin\Desktop\task7.py 
+Matrix Size: 1024x1024 (float64)
+Parallel Threads: 4
+ 
+
+very slow
