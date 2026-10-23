@@ -1,0 +1,18 @@
+C:\Users\Admin\PycharmProjects\PythonProject1\.venv\Scripts\python.exe C:\Users\Admin\Desktop\task5.py 
+Cores detected: 12
+Vector Operation: y[i] = a * x[i] + b
+
+=================================================================
+           N |  Serial (ms) | Parallel (ms) |  Faster?
+-----------------------------------------------------------------
+         100 |        0.005 |         1.005 |       NO
+       1,000 |        0.049 |         1.446 |       NO
+      10,000 |        0.484 |         3.067 |       NO
+     100,000 |        4.583 |         7.791 |       NO
+   1,000,000 |       47.191 |        98.574 |       NO
+  10,000,000 |      598.621 |      1349.163 |       NO
+=================================================================
+
+Crossover Point: Parallel execution remained slower for all tested N.
+
+Process finished with exit code 0
