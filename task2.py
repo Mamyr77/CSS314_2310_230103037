@@ -11,12 +11,10 @@ P = 0.95
 
 
 def sum_chunk(chunk):
-    """Calculate the sum of one array chunk."""
     return np.sum(chunk, dtype=np.float64)
 
 
 def parallel_sum(data, workers):
-    """Split array and calculate partial sums using worker threads."""
     chunks = np.array_split(data, workers)
 
     with ThreadPoolExecutor(max_workers=workers) as executor:
@@ -26,7 +24,6 @@ def parallel_sum(data, workers):
 
 
 def amdahl_upper_bound(workers):
-    """Theoretical speedup according to Amdahl's Law."""
     return 1.0 / ((1.0 - P) + P / workers)
 
 
@@ -38,16 +35,13 @@ def main():
     max_cores = os.cpu_count() or 1
     print(f"Logical cores detected: {max_cores}")
 
-    # Generate deterministic data using Student ID as the seed
     rng = np.random.default_rng(int(STUDENT_ID))
     data = rng.random(N, dtype=np.float64)
 
-    # Required worker counts
     worker_counts = sorted(set([1, 2, 4, max_cores, max_cores * 2]))
 
     results = []
 
-    # Benchmark each worker count
     for workers in worker_counts:
         start = time.perf_counter()
 
@@ -57,7 +51,6 @@ def main():
 
         results.append({"workers": workers, "time": elapsed, "sum": total})
 
-    # Baseline time for one worker
     baseline_time = next(
         result["time"] for result in results if result["workers"] == 1
     )
