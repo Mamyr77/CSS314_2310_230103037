@@ -1,0 +1,13 @@
+C:\Users\Admin\PycharmProjects\PythonProject1\.venv\Scripts\python.exe C:\Users\Admin\Desktop\task4.py 
+Items: 1000
+Parallel Workers: 4
+Dynamic Chunk Size: 5
+
+=================================================================
+Strategy                       | Total Time (ms) | Min/Max Delta (ms)
+-----------------------------------------------------------------
+Strategy A (Static Chunk)      |          339.02 |           13.69
+Strategy B (Dynamic/Stealing)  |          322.33 |            5.86
+=================================================================
+
+Process finished with exit code 0
