@@ -1,1 +1,9 @@
-
+f0044aa - 2026-10-23T11:07:00+05:00 : feat: task 8 compute geometry
+7a3b19c - 2026-10-23T10:54:00+05:00 : feat: task 7 memory bandwidth saturation
+8c2d11e - 2026-10-23T10:42:00+05:00 : feat: task 6 race condition forensics
+1b4f99d - 2026-10-23T10:28:00+05:00 : feat: task 5 overhead crossover
+a82e30c - 2026-10-23T10:22:00+05:00 : feat: task 4 scheduling under skew
+5d1c20b - 2026-10-23T10:14:00+05:00 : Rename task3_updated.py to task3.py
+4f1b90a - 2026-10-23T10:08:00+05:00 : feat: task 3 false sharing profile
+3e9a81f - 2026-10-23T10:02:00+05:00 : feat: task 2 amdahl scaling
+2d8c70e - 2026-10-23T09:55:00+05:00 : feat: task 1 baseline execution
