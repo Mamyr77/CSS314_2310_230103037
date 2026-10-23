@@ -1,0 +1,13 @@
+C:\Users\Admin\PycharmProjects\PythonProject1\.venv\Scripts\python.exe C:\Users\Admin\Downloads\task1.py 
+Student ID: 230103037
+Operating System: Windows-11-10.0.26200-SP0
+CPU / Platform: Intel64 Family 6 Model 154 Stepping 3, GenuineIntel
+Logical CPU cores: 12
+Array elements: 20000000
+Data type: float64
+Seed: 230103037
+Mathematical sum: 10000881.550897493958
+Population standard deviation: 0.288719736069
+Serial computation wall-clock time (ms): 151.124
+
+Process finished with exit code 0
